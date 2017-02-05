@@ -8,10 +8,12 @@
 
 import UIKit
 
+var reservationArray = [Reservation(date: "Monday, March 26, 2016", time: "2:00 PM", type: "Gel Manicure", partySize: 1, length: 30, description: "Get the upper hand with our chip-resistant, morror-finish gel polish that requires no drying time and last up to two weeks.")]
 class HomeVC: UIViewController {
+    
+    //MARK: variables
 
     //MARK: actions
-    
     @IBAction func addAction(_ sender: Any) {
         
         let storyboard = UIStoryboard(name: "SpaService", bundle: nil)
@@ -21,7 +23,7 @@ class HomeVC: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
     }
 
     override func didReceiveMemoryWarning() {

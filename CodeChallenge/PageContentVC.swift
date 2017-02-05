@@ -28,7 +28,6 @@ class PageContentVC: UIViewController{
     {
         super.viewDidLoad()
 
-        
         tableView.round()
         reserveButton.round()
         

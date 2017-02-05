@@ -16,12 +16,18 @@
 		3960BB401E4308E3009A11EC /* CodeChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3960BB3F1E4308E3009A11EC /* CodeChallengeTests.swift */; };
 		3960BB4B1E4308E3009A11EC /* CodeChallengeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3960BB4A1E4308E3009A11EC /* CodeChallengeUITests.swift */; };
 		3960BB591E4309A8009A11EC /* SpaService.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3960BB581E4309A8009A11EC /* SpaService.storyboard */; };
+		39D1207A1E4449EC00AE73CF /* ScheduleCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39D120791E4449EC00AE73CF /* ScheduleCollectionView.swift */; };
+		39D1207C1E4457A200AE73CF /* HourCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39D1207B1E4457A200AE73CF /* HourCell.swift */; };
 		CA10F91B1E43AE23006A4A11 /* PageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA10F91A1E43AE23006A4A11 /* PageController.swift */; };
 		CA10F91D1E43AF8A006A4A11 /* PageContentVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA10F91C1E43AF8A006A4A11 /* PageContentVC.swift */; };
-		CA10F91F1E43BA17006A4A11 /* TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA10F91E1E43BA17006A4A11 /* TableView.swift */; };
+		CA10F91F1E43BA17006A4A11 /* PageTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA10F91E1E43BA17006A4A11 /* PageTableView.swift */; };
 		CA10F9211E43D417006A4A11 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA10F9201E43D417006A4A11 /* Helper.swift */; };
 		CA10F9231E43D479006A4A11 /* Schedule.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA10F9221E43D479006A4A11 /* Schedule.storyboard */; };
 		CA10F9261E43E2AE006A4A11 /* ScheduleVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA10F9251E43E2AE006A4A11 /* ScheduleVC.swift */; };
+		CAB7EC6C1E4508F7000F883F /* DayCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB7EC6B1E4508F7000F883F /* DayCell.swift */; };
+		CAB7EC6E1E453AE4000F883F /* Reservation.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB7EC6D1E453AE4000F883F /* Reservation.swift */; };
+		CAB7EC721E454146000F883F /* ReservationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB7EC711E454146000F883F /* ReservationCell.swift */; };
+		CAB7EC781E454E76000F883F /* HomeCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB7EC771E454E76000F883F /* HomeCollectionView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,12 +63,18 @@
 		3960BB4A1E4308E3009A11EC /* CodeChallengeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeChallengeUITests.swift; sourceTree = "<group>"; };
 		3960BB4C1E4308E3009A11EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3960BB581E4309A8009A11EC /* SpaService.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SpaService.storyboard; sourceTree = "<group>"; };
+		39D120791E4449EC00AE73CF /* ScheduleCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScheduleCollectionView.swift; sourceTree = "<group>"; };
+		39D1207B1E4457A200AE73CF /* HourCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HourCell.swift; sourceTree = "<group>"; };
 		CA10F91A1E43AE23006A4A11 /* PageController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageController.swift; sourceTree = "<group>"; };
 		CA10F91C1E43AF8A006A4A11 /* PageContentVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageContentVC.swift; sourceTree = "<group>"; };
-		CA10F91E1E43BA17006A4A11 /* TableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableView.swift; sourceTree = "<group>"; };
+		CA10F91E1E43BA17006A4A11 /* PageTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageTableView.swift; sourceTree = "<group>"; };
 		CA10F9201E43D417006A4A11 /* Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
 		CA10F9221E43D479006A4A11 /* Schedule.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Schedule.storyboard; sourceTree = "<group>"; };
 		CA10F9251E43E2AE006A4A11 /* ScheduleVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScheduleVC.swift; sourceTree = "<group>"; };
+		CAB7EC6B1E4508F7000F883F /* DayCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DayCell.swift; sourceTree = "<group>"; };
+		CAB7EC6D1E453AE4000F883F /* Reservation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reservation.swift; sourceTree = "<group>"; };
+		CAB7EC711E454146000F883F /* ReservationCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReservationCell.swift; sourceTree = "<group>"; };
+		CAB7EC771E454E76000F883F /* HomeCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeCollectionView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,13 +125,17 @@
 		3960BB261E4308E3009A11EC /* CodeChallenge */ = {
 			isa = PBXGroup;
 			children = (
-				CA10F9241E43D47F006A4A11 /* StoryBoards */,
+				CAB7EC751E4543FB000F883F /* Controller */,
+				CAB7EC741E4543F6000F883F /* View */,
+				CAB7EC731E4543EE000F883F /* Model */,
 				3960BB271E4308E3009A11EC /* AppDelegate.swift */,
-				CA10F9251E43E2AE006A4A11 /* ScheduleVC.swift */,
-				CA10F91E1E43BA17006A4A11 /* TableView.swift */,
+				CAB7EC771E454E76000F883F /* HomeCollectionView.swift */,
 				3960BB291E4308E3009A11EC /* HomeVC.swift */,
 				CA10F91A1E43AE23006A4A11 /* PageController.swift */,
 				CA10F91C1E43AF8A006A4A11 /* PageContentVC.swift */,
+				CA10F91E1E43BA17006A4A11 /* PageTableView.swift */,
+				39D120791E4449EC00AE73CF /* ScheduleCollectionView.swift */,
+				CA10F9251E43E2AE006A4A11 /* ScheduleVC.swift */,
 				CA10F9201E43D417006A4A11 /* Helper.swift */,
 				3960BB311E4308E3009A11EC /* Assets.xcassets */,
 				3960BB361E4308E3009A11EC /* Info.plist */,
@@ -155,6 +171,40 @@
 				3960BB581E4309A8009A11EC /* SpaService.storyboard */,
 			);
 			name = StoryBoards;
+			sourceTree = "<group>";
+		};
+		CAB7EC731E4543EE000F883F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CAB7EC6D1E453AE4000F883F /* Reservation.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		CAB7EC741E4543F6000F883F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CAB7EC761E454414000F883F /* Cells */,
+				CA10F9241E43D47F006A4A11 /* StoryBoards */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		CAB7EC751E4543FB000F883F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		CAB7EC761E454414000F883F /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				CAB7EC711E454146000F883F /* ReservationCell.swift */,
+				39D1207B1E4457A200AE73CF /* HourCell.swift */,
+				CAB7EC6B1E4508F7000F883F /* DayCell.swift */,
+			);
+			name = Cells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -299,11 +349,17 @@
 				CA10F91D1E43AF8A006A4A11 /* PageContentVC.swift in Sources */,
 				CA10F9261E43E2AE006A4A11 /* ScheduleVC.swift in Sources */,
 				CA10F9211E43D417006A4A11 /* Helper.swift in Sources */,
-				CA10F91F1E43BA17006A4A11 /* TableView.swift in Sources */,
+				CAB7EC6E1E453AE4000F883F /* Reservation.swift in Sources */,
+				CA10F91F1E43BA17006A4A11 /* PageTableView.swift in Sources */,
 				CA10F91B1E43AE23006A4A11 /* PageController.swift in Sources */,
+				39D1207C1E4457A200AE73CF /* HourCell.swift in Sources */,
+				CAB7EC781E454E76000F883F /* HomeCollectionView.swift in Sources */,
+				CAB7EC721E454146000F883F /* ReservationCell.swift in Sources */,
 				3960BB301E4308E3009A11EC /* CodeChallenge.xcdatamodeld in Sources */,
 				3960BB2A1E4308E3009A11EC /* HomeVC.swift in Sources */,
 				3960BB281E4308E3009A11EC /* AppDelegate.swift in Sources */,
+				39D1207A1E4449EC00AE73CF /* ScheduleCollectionView.swift in Sources */,
+				CAB7EC6C1E4508F7000F883F /* DayCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

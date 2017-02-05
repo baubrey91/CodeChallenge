@@ -16,6 +16,7 @@ class PageController: UIPageViewController{
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        self.title = "SPA SERVICE"
         self.dataSource = self
         self.setViewControllers([getViewControllerAtIndex(index: 0)] as [UIViewController], direction: UIPageViewControllerNavigationDirection.forward, animated: false, completion: nil)
     }
